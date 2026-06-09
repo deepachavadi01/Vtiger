@@ -132,7 +132,7 @@ import { logout } from '../../pages/logout.js'
 
 //! POM:
 
-test.only('contact',async ({page}) => {
+test('contact',async ({page}) => {
     let obj=new login(page)
     await obj.signin()
     await obj.creadentials()
