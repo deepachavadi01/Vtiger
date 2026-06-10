@@ -6,7 +6,7 @@ import { products } from '../../utils/product.utils.js'
 import pro_det from '../../test_data/product.json'
 
 
-// test.only('create_product',async ({page}) => {
+// test('create_product',async ({page}) => {
 
 //     await page.goto('http://localhost:8888/index.php?action=Login&module=Users')
 //     await page.locator('//input[@type="text"]').fill('admin')
