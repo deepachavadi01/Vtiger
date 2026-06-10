@@ -36,7 +36,6 @@ test('methods',async ({page}) => {
     let login_methods = new login(page)
     await login_methods.signin()
     await login_methods.creadentials()
-   
-}) 
+   }) 
 
 

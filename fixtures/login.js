@@ -6,7 +6,6 @@ export let test = base.extend({
         let sign = new login(page)
         await sign.signin()
         await sign.creadentials()
-        //await use(page)
         await use(page)
     }
 })
